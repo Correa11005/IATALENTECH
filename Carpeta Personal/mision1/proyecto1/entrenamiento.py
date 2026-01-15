@@ -12,5 +12,8 @@ print("libreria cargada correctamente")
 #ejemplo 1 
 texto="mi nombre es 132"
 resultado= re.search(r"\d+",texto)
-print(resultado.group())
-#Pruebagit status
+print(f"{texto } Resultado {resultado.group()}")
+texto="mi numero es 12345-985"
+resultado=re.search(r"\d+",texto)
+
+

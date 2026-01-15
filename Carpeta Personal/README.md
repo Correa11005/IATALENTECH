@@ -37,5 +37,5 @@ control+shift+K
 RECORDAR
 
 ME FALTA HACER QUE EL FRONTEND QUEDE EN CARPETA EN GITHUB
-
-    
+ # desactivar entorno virtual
+deactivate
