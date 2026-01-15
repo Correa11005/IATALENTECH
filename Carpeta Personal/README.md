@@ -20,14 +20,21 @@ git remote add origin https://github.com/fernandogh7508/IAG344.git
 git push -u origin main
 git push -u origin master
 ```
+
+```
 para agregar comentario 
 <!--  -->
 alt + shift + A 
- 
+```
+ ```
  para duplicar lineas 
  shift + flecha abajo 
-
+```
+```
 para eliminar una linea de codigo completa 
 control+shift+K
+```
+
+ME FALTA HACER QUE EL FRONTEND QUEDE EN CARPETA EN GITHUB
 
 
