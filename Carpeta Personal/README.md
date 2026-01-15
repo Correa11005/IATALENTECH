@@ -34,7 +34,8 @@ alt + shift + A
 para eliminar una linea de codigo completa 
 control+shift+K
 ```
+RECORDAR
 
 ME FALTA HACER QUE EL FRONTEND QUEDE EN CARPETA EN GITHUB
 
-
+    
