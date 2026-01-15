@@ -13,3 +13,4 @@ print("libreria cargada correctamente")
 texto="mi nombre es 132"
 resultado= re.search(r"\d+",texto)
 print(resultado.group())
+#Pruebagit status
