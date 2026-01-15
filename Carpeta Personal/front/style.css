@@ -1,0 +1,39 @@
+/* estilo para toda la web */
+*{
+    margin:0; /* quitar margenes */
+    padding:0; /*  */
+}
+
+
+/* estilo header */
+
+header{
+    background: #111827;/* color de fondo en hexadecimal */
+    color: white; /* tamaño letra */
+    padding: 16px 24px; /* espacio interno */
+    display: flex;/* logo y menu en fila */
+    align-items: center; /* elementos en fila  */
+    justify-content: space-between; /* separa izquierda y derecha */
+}
+
+/* estilo titulo web */
+.nombre{
+
+    font-size: 22px; /* tamaño en pixels */
+}
+/* enlaces del menu */
+.nav-link{
+    color: white;
+    text-decoration:none;
+    margin-left: 12px ;/* espacios entre links */
+    fill-opacity: 0.85;/* color un poco mas suave  */
+}
+.nav-link:hover
+{
+opacity: 1;
+text-decoration: underline;
+color: rgb(171, 100, 13);
+background-color: rgb(40, 75, 16);
+border-radius: 7.5px;
+
+}
