@@ -61,3 +61,9 @@ deactivate
 
  paleta de comando 
  ctrl shift p 
+
+
+<!--  }
+.imagen{   
+    max-width:70% ;  asi reduzco el tamaño de imagen 
+} -->
