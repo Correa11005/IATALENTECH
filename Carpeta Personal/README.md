@@ -37,5 +37,26 @@ control+shift+K
 RECORDAR
 
 ME FALTA HACER QUE EL FRONTEND QUEDE EN CARPETA EN GITHUB
- # desactivar entorno virtual
+
+# Activar entorno virtual 
+```
+env.3.13.5/scripts/activate
+```
+# desactivar entorno virtual
+ ```
 deactivate
+ ```
+
+ # Comandos CMD
+ |comando|Descripcion|
+ |-|-|
+ |`cd`|Cambio de directorio|
+ |`cd`|Cambio de directorio|
+ |`dir`|Listar|
+
+
+ python.exe -m pip install --upgrade 
+ pip install pytest
+ pip list
+
+ 
