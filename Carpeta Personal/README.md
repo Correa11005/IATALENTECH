@@ -59,4 +59,5 @@ deactivate
  pip install pytest
  pip list
 
- 
+ paleta de comando 
+ ctrl shift p 
