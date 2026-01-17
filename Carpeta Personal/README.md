@@ -40,7 +40,7 @@ ME FALTA HACER QUE EL FRONTEND QUEDE EN CARPETA EN GITHUB
 
 # Activar entorno virtual 
 ```
-env.3.13.5/scripts/activate
+env3.13.5/scripts/activate
 ```
 # desactivar entorno virtual
  ```

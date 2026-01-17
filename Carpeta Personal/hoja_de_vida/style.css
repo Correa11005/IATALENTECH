@@ -20,3 +20,10 @@
 .imagen{
     max-width:50% ;     
 }
+/* opacidad barra de progreso */
+.progress-bar{background-color: blue !important;} 
+
+/* Cambio de color de texto columna darecha  */
+.text-primary{
+    color:#147984 !important;
+}
