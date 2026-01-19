@@ -1,3 +1,4 @@
+python --version
 python -m venv venv  
 venv\scripts\activate 
 python.exe -m pip install --upgrade pip

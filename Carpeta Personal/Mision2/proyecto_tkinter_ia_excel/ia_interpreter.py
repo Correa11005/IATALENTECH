@@ -1,25 +1,13 @@
-# ia_interpreter.py
-# Simula una IA básica usando reglas y expresiones regulares
-
-import re
-
-
-def interpretar_texto(texto):
+def interpretar_instruccion(texto):
     texto = texto.lower()
 
-    # Limpieza de columna por letra
-    if "limpia" in texto and "columna" in texto:
-        col = re.search(r"columna\s+([a-z])", texto)
-        if col:
-            return {"action": "clean_id", "column": col.group(1).upper()}
+    if "procesar" in texto or "limpiar" in texto:
+        return {"action": "procesar_base"}
 
-    # Unión de nombre y apellido
-    if "une" in texto and "nombre" in texto:
-        return {
-            "action": "merge_name",
-            "name_column": "Nombre",
-            "last_column": "Apellido",
-            "target": "NombreCompleto"
-        }
+    if "borrar" in texto or "vaciar" in texto:
+        for col in ["a", "b", "c", "d", "e"]:
+            if f"columna {col}" in texto:
+                return {"action": "vaciar_columna", "column": col.upper()}
 
-    raise ValueError("No se pudo interpretar la instrucción")
+    return None
+
