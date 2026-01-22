@@ -52,7 +52,7 @@ deactivate
  |-|-|
  |`cd`|Cambio de directorio|
  |`cd`|Cambio de directorio|
- |`dir`|Listar|
+ |`dir`|Listar|         
 
 
  python.exe -m pip install --upgrade 

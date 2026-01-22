@@ -50,4 +50,5 @@ def process_excel_safe(path):
     except KeyError:
         return False, "Hoja 'Datos' no encontrada"
     except Exception as e:
-        return False, f"Error inesperado: {str(e)}"
+        return False, f"Error inesperado: {str(e)}" 
+        
