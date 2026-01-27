@@ -1,7 +1,7 @@
 # processor.py
 # Lógica de negocio: operaciones sobre Excel
 
-from openpyxl import load_workbook
+from openpyxl import load_worbook
 
 
 def ejecutar_accion(instruccion,path):
